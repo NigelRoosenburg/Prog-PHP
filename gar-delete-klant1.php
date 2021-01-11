@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
     <meta name="author" content="Anjo Eijeriks">
+    <meta charset="UTF-8">
     <title>gar-delete-klant1.php</title>
 </head>
 <body>
@@ -12,7 +12,7 @@
         de tabel klanten van database garage
         om hem te kunnen verwijderen.
     </p>
-    <form action="gar-delete-klant2.php" method="POST">
+    <form action="gar-delete-klant2.php" method="post">
         Welk klantid wilt u verwijderen?
         <input type="text" name="klantidvak"> <br />
         <input type="submit">
